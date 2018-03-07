@@ -5,5 +5,6 @@
   </span>
   <span class="button is-small is-danger" (click)='deleteNote(note?.id)'>Delete</span>
   <p>This note has been Love {{ note.hearts || 0 }} times.</p>
-  <div id="clockbox" style="font:14pt Arial; color:#FF0000;"></div>
+  <span class="button is-small is-danger" (click)='DislikeNote(note?.id)'>DisLike</span>
+  
 </div>
